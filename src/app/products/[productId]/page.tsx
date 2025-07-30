@@ -1,6 +1,7 @@
 /**  the type of params is a promise that resolves to an object containing the 
  dynamic segments as key value pairs */
  import {Metadata} from "next";
+
 type Props = {
     params: Promise<{productId: string}>;
 }
