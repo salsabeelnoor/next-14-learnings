@@ -21,9 +21,9 @@ export default function RootLayout({
         <header style={{ backgroundColor: "lightblue", padding: "1rem" }}>
           <p>Header</p>
         </header>
-        <ErrorWrapper>
+        {/* <ErrorWrapper> */}
           {children}
-        </ErrorWrapper>
+        {/* </ErrorWrapper> */}
         <footer style={{ backgroundColor: "ghostwhite", padding: "1rem" }}>
           <p>Footer</p>
         </footer>
